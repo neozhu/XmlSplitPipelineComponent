@@ -1,6 +1,7 @@
 # Custom Pipeline Component - Easy Method to Split Large XML File Using LINQ to XML
 You have a large well formed XML file which you wish to split into smaller manageable files. Each output file is also a well formed XML file. This approach uses Skip and Take LINQ extension methods to intuitively slice and dice the source XML into smaller parts.
 # Code
+``` 
 public void Disassemble(Microsoft.BizTalk.Component.Interop.IPipelineContext pc, Microsoft.BizTalk.Message.Interop.IBaseMessage inmsg)
         {
             // 
@@ -62,3 +63,4 @@ public void Disassemble(Microsoft.BizTalk.Component.Interop.IPipelineContext pc,
 
           
         }
+```
